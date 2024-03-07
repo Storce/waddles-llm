@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -24,8 +24,54 @@
   color: white;
 }
 
+.beautiful-button {
+  padding: 10px 20px; /* Adjust padding to suit your design */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color */
+  background-color: #282c34; /* Background color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid white; /* White border, 2px thick, solid style */
+  outline: none; /* Remove default focus outline */
+  margin: 10px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.inputBar {
+  padding: 10px;
+  font-size: 16px;
+  color:white;
+  background-color: #282c34;
+  border-radius: 5px;
+  width: 1000px;
+  outline: none;
+  margin: 10px;
+}
+
+.chatBox {
+  width: 1000px; /* Adjust the width as needed */
+  height: 450px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 8px; /* Rounded corners */
+  align-items: flex-start;
+  padding: 10px; /* Space inside the box around the content */
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* Space between messages */
+  margin: 10px;
+}
+
+.message {
+  padding: 5px 10px; /* Padding inside each message */
+  border-radius: 4px; /* Slightly rounded corners for each message */
+  max-width: 80%; /* Max width for each message */
+  word-wrap: break-word; /* Ensure long words do not overflow */
+  margin: 1px 1px;
+  font-size: 16px;
 }
 
 @keyframes App-logo-spin {
@@ -33,6 +79,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
